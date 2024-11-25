@@ -2719,7 +2719,7 @@ color: #ffffff;
     gap: 20px;
     }
     .sec11-box1{
-        background-color: #FFFFFF;
+        background-color: #000000;
      /* justify-content: center; */
      align-items: center;
      display: flex;
@@ -2742,6 +2742,7 @@ color: #ffffff;
     .sec11-heding1{
         text-align: left;
         width: 100%;
+        color: #ffffff;
      
     }
     .sec11-text1{
@@ -2751,6 +2752,7 @@ color: #ffffff;
         font-size: 16px;
         line-height: 28px;
         font-weight: 400;
+        color: #ffffff;
 
     }
 @media (max-width: 1457px) {
