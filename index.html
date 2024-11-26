@@ -16,6 +16,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
 </head>
 <body>
     <div class="container">
@@ -290,6 +291,7 @@
                                     <div class="custom-select">
                                         <input id="datePicker" class="form-control"
                                             placeholder="Select date and time" />
+                                            
 
                                     </div>
                                     <label for="services">Select Service</label>
@@ -1977,10 +1979,18 @@
         <h2 class="sec14-heading">Get in touch with us <br/> Here to guide you thoroughly</h2>
         </div>
         <div class="sec14-iconcontent">
-            <img src="./assets/fb.svg" alt="Logo 2" /> 
+            <a href="https://www.facebook.com/SeekNeoITSolutions" target="_blank" style="text-decoration: none;">
+                <img src="./assets/fb.svg" alt="Logo 2" />
+            </a>  
+    
+            <a href="https://www.instagram.com/seekneoitsolutions/" target="_blank" style="text-decoration: none;">
             <img src="./assets/insta.svg" alt="Logo 2" /> 
+        </a> 
+    
+         <a href="https://x.com/i/flow/login?redirect_after_login=%2Fseekneoit" target="_blank" style="text-decoration: none;">
             <img src="./assets/twitter.svg" alt="Logo 2" /> 
-        </div>
+           </a>
+    </div>  
   
     </div>
     <div class="sec14-formcontainer">
@@ -2182,7 +2192,7 @@
     </a>
     
         </div>
-        <p class="footer-last-text"> © 2023 Seekneo. All rights reserved.</p>
+        <p class="footer-last-text"> © 2024 Seekneo. All rights reserved.</p>
         <div></div>
     </div> 
    
@@ -2317,7 +2327,16 @@ accordionItems.forEach(item => {
     });
 </script>   
   
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 
+
+<script>
+    flatpickr("#datePicker", {
+        enableTime: true, // Enables time selection
+        dateFormat: "Y-m-d H:i", // Date format with time
+        time_24hr: true // 24-hour time format
+    });
+</script>
 <script>
     function openPopup() {
       document.getElementById('popupForm').style.display = 'flex';
