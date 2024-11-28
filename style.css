@@ -406,14 +406,20 @@ color: white;
 }
 .creation{
 font-family: 'Inter';
-font-size: 100px;
+font-size: 60px;
 font-weight: 700;
-line-height: 100px;
-letter-spacing: -5.2px;
+line-height: 70px;
+letter-spacing: -0.2px;
 color: #FFFFFF;
 width: 90%;
 text-align: center;
 margin-top: 2rem;
+}
+.big1{
+    font-size: 70px;
+font-weight: 800;
+line-height: 70px;
+color: #00A616;
 }
 .friendly{
     font-family: Inter;
@@ -561,9 +567,7 @@ height: 620.08px;
       }
 }
 @media (max-width: 860px) {
-    .creation{
-        letter-spacing: -4.2px;
-        }
+   
         .friendly{
            
             font-size: 18.6px;
@@ -583,11 +587,29 @@ height: 620.08px;
         .creation{
             width: 95%; 
             font-size: 32px;
-            line-height:32px;
-            letter-spacing: -2px;
+            line-height:42px;
+            letter-spacing: -0px;
+            }
+            .big1{
+                font-size: 40px;
+            font-weight: 800;
+            line-height: 40px;
+            color: #00A616;
             }
 }
 @media (max-width: 561px) {
+    .creation{
+        width: 95%; 
+        font-size: 22px;
+        line-height:30px;
+        letter-spacing: -0px;
+        }
+        .big1{
+            font-size: 30px;
+        font-weight: 800;
+        line-height: 30px;
+        color: #00A616;
+        }
     
         .friendly{
             font-size: 12.6px;
@@ -654,11 +676,11 @@ height: 620.08px;
           
 }
 @media (max-width: 386px) {
-    .creation{
+    /* .creation{
         font-size: 28.8px;
         line-height: 28.8px;
         letter-spacing: -0.2px;
-        }
+        } */
         .sec1-image1 img{
             width: 326px;
            height:185px;
@@ -679,11 +701,11 @@ height: 620.08px;
         width: 306px;
        height:165px;
 } 
-.creation{
+/* .creation{
     font-size: 24.8px;
     line-height: 24.8px;
     letter-spacing: -0.2px;
-    }
+    } */
 }
 
 
@@ -4136,11 +4158,11 @@ margin-top: 1rem;
     font-weight: 500;
     }
     .answer{
-    font-size: 18px;
-    line-height: 30px;
-    color: #AAACB6;
-    padding-top: 10px;
-    display: none;
+        font-size: 18px;
+        line-height: 25px;
+        color: #666668;
+        padding-top: 10px;
+        display: none;
     }
     
     
