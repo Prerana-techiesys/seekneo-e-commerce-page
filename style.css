@@ -437,7 +437,7 @@ color: #00A616;
     line-height: 34.56px;
     letter-spacing: -0.72px;
     color: #E3E3E3;
-
+width: 80%;
     text-align: center;
     margin-top: 1rem;  
 } 
@@ -3072,7 +3072,7 @@ color: #ffffff;
       
        width: 371px;
        padding: 30px;
-       height: 406px;
+       height: 466px;
        gap: 10px;
        border: 1px solid #E4E4E4CC;
        transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for zoom */
@@ -3125,7 +3125,7 @@ color: #ffffff;
     .sec11-box1{
         width: 290px;
         padding: 15px;
-        height: 376px;
+        height: 476px;
 
     }
     .sec11-box1 img{
@@ -3142,7 +3142,7 @@ color: #ffffff;
     .sec11-box1{
         width: 371px;
         padding: 30px;
-        height: 426px;
+        height: 466px;
        
        
 
@@ -3155,7 +3155,7 @@ color: #ffffff;
     .sec11-box1{
         width: 290px;
         padding: 15px;
-        height: 366px;
+        height: 466px;
 
     }
     .sec11-box1 img{
